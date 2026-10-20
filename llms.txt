@@ -37,7 +37,7 @@ All plans are custom-quoted (pricing on request) by markets, languages and volum
 - [Results](https://ileadengineai.com/cases.html): anonymized client cases, same-day AI test evidence, self-run outbound test data, measured value, market-by-market observations
 - [About](https://ileadengineai.com/about.html): what we do, the founder, how we compare with other GEO providers, FAQ
 - [Resources](https://ileadengineai.com/insights.html): index of GEO Q&A, how-to guides, tools and method
-- [GEO FAQ](https://ileadengineai.com/faq.html): 15 questions B2B manufacturers ask about GEO, with answers (FAQPage structured data)
+- [GEO FAQ](https://ileadengineai.com/faq.html): 25 questions B2B manufacturers ask: working with Lead Engine (pipeline, timing, pricing, commitments) plus GEO, with answers (FAQPage structured data)
 - [How-to guides](https://ileadengineai.com/how-to.html): 10 step-by-step guides, including an AI visibility self-test, TDS specs as structured data, robots.txt for AI crawlers, llms.txt, FAQ structure and mention-rate tracking (HowTo structured data)
 - [Free downloads](https://ileadengineai.com/downloads.html): sample audit report, GEO self-check, method and content playbook, no sign-up required
 - [Sample AI Visibility Audit Report](https://ileadengineai.com/report-sample.html): an anonymized real audit, its structure and content
