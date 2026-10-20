@@ -1,0 +1,62 @@
+# Lead Engine
+
+> Lead Engine builds inquiry pipelines for B2B manufacturers, industrial suppliers, brand owners and distributors selling across borders. Two lines feed one pipeline: an outbound line (researched, one-to-one email to decision-makers) and a GEO line (Generative Engine Optimization, so ChatGPT, Perplexity, Claude, Gemini and other AI assistants name the client when buyers ask who to source from). The output is A/B/C-graded qualified inquiries.
+
+## Key facts
+- Name: Lead Engine
+- Who it serves: export-oriented manufacturers, brand owners, traders and distributors, and niche specialists in any industry
+- Industries: all industries; work to date covers chemicals and advanced materials, machinery and precision parts, electronic components, feed additives and bio-based products, consumer goods and home, textiles. Strongest with spec-heavy technical products
+- Target markets: North America, Europe, Southeast Asia, the Middle East and South America
+- Model: two lines, one pipeline. Outbound line (ACTIVE, "we go to the buyer") and GEO line (PASSIVE, "AI brings the buyer to you"), on top of a network of scenario sites
+- GEO core capabilities: (1) semantic restructuring and Schema markup, (2) authoritative content seeding with external cross-verification, (3) competitor-model mapping for "alternative to [brand model]" queries
+- Outbound core: 100+ paid global data sources in six categories, 8-dimension account research, one-to-one emails (30,720 structure combinations, no subject/opener repeat on the same domain within 60 days), five-touch follow-up
+- Measured value (ranges from past client work, not a guarantee): AI mention rate up 30%–70%; inquiry intent about 2.8× higher; blended acquisition cost down about 55%
+- Self-run test on our own chemical export business: 2,500+ personalized emails, 30+ inquiries (about 1.2% inquiry rate), including 6 sample requests
+- Founder: Jackson Jiang, from fine chemicals and industrial export sales
+- Free entry point: AI Visibility Audit Report, delivered in 3 business days
+
+## Plans
+All plans are custom-quoted (pricing on request) by markets, languages and volume.
+- Outbound line (billed monthly, plus a one-time setup fee):
+  - Starter: 1 scenario site, 5,000 sends/month
+  - Standard: 3 scenario sites, 20,000 sends/month
+  - Flagship: 7-site network, 50,000 sends/month
+  - 15% off when outbound is paid annually
+- GEO line (billed annually):
+  - Foundation: website Schema markup overhaul, AI-readable content seeding for the top 3 products, AI crawler access and llms.txt
+  - Growth (most popular): full product-line semantic modeling, competitor-model mapping, application-scenario content, high-authority external source content, monthly mention-rate report
+  - Leader: multilingual content seeding across markets, technical white papers, academic and trade media endorsement, algorithmic defense build-out
+- Two-line bundle (outbound line plus a GEO plan): 30% off the GEO plan
+
+## Pages
+- [Home](https://ileadengineai.com/): positioning, the three problems, the two-line model, proof and plan overview
+- [Industries](https://ileadengineai.com/solutions.html): why AI skips suppliers in 9 industries, the fix for each, and an industry x blocker x plan selection table
+- [Method](https://ileadengineai.com/method.html): GEO vs SEO, the three core capabilities, the four-phase delivery process and how results are measured
+- [The Lead Engine pipeline](https://ileadengineai.com/pipeline.html): scenario-site network, outbound email network and automated GEO program, data foundation, lead grading, ROI calculator, plans and billing
+- [Plans](https://ileadengineai.com/pricing.html): the three GEO plans in detail, side-by-side comparison, investment and return FAQ
+- [Results](https://ileadengineai.com/cases.html): anonymized client cases, same-day AI test evidence, self-run outbound test data, measured value, market-by-market observations
+- [About](https://ileadengineai.com/about.html): what we do, the founder, how we compare with other GEO providers, FAQ
+- [Resources](https://ileadengineai.com/insights.html): index of GEO Q&A, how-to guides, tools and method
+- [GEO FAQ](https://ileadengineai.com/faq.html): 15 questions B2B manufacturers ask about GEO, with answers (FAQPage structured data)
+- [How-to guides](https://ileadengineai.com/how-to.html): 10 step-by-step guides, including an AI visibility self-test, TDS specs as structured data, robots.txt for AI crawlers, llms.txt, FAQ structure and mention-rate tracking (HowTo structured data)
+- [Free downloads](https://ileadengineai.com/downloads.html): sample audit report, GEO self-check, method and content playbook, no sign-up required
+- [Sample AI Visibility Audit Report](https://ileadengineai.com/report-sample.html): an anonymized real audit, its structure and content
+- [GEO self-check](https://ileadengineai.com/checklist.html): 18-item online self-check with live scoring across four dimensions
+- [Quality control](https://ileadengineai.com/quality.html): four content checkpoints and four red lines written into the contract
+- [Research notes](https://ileadengineai.com/news.html): sourced observations on how AI recommends suppliers, plus our own test logs
+- [AI test log, August 2026](https://ileadengineai.com/news.html#ai-audit-0812): results for 7 product categories in Perplexity and Google AI Overviews, with exact questions and screenshots
+- [Buyers no longer start with a search engine](https://ileadengineai.com/news.html#buyers-start-with-ai): 2026 B2B buying data; 51% of buyers start research with AI, 69% switched vendors because of AI recommendations
+- [AI matches suppliers on specs, not categories](https://ileadengineai.com/news.html#ai-matches-parameters): agentic supplier discovery matches on tolerances, certifications and MOQ; specs machines can't read never reach the candidate pool
+- [ChatGPT and Perplexity cite different sources](https://ileadengineai.com/news.html#citation-overlap): only about 11% overlap in cited sources
+- [Does llms.txt work yet?](https://ileadengineai.com/news.html#llms-txt-reality): three data sets and a practical conclusion
+- [Free AI visibility audit](https://ileadengineai.com/contact.html): request the AI Visibility Audit Report
+
+## Optional
+- [Full fact file](https://ileadengineai.com/llms-full.txt): the complete, citable description of Lead Engine
+- [Content playbook](https://ileadengineai.com/playbook.html): our internal content operations rules and technical checklist
+- [Privacy policy](https://ileadengineai.com/privacy.html): what we collect, GDPR rights, cookies, retention
+
+## Contact
+- Email: sales@ileadengine.com
+- WhatsApp: +1 619-609-3350 (https://wa.me/16196093350)
+- Hours: Monday-Friday, replies within 1 business day
