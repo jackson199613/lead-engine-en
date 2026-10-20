@@ -387,3 +387,58 @@ input:focus, select:focus, textarea:focus { border-color: var(--carbon) !importa
   .cta-band { padding-right: calc(min(34%, 400px) + clamp(40px, 6vw, 72px) * 1.5); }
   .cta-band::after { right: clamp(32px, 4vw, 56px); border-radius: 12px; box-shadow: none; }
 }
+
+/* ==========================================================================
+   Imagery pass (10-20): bring back the site's own renders as atmosphere
+   ========================================================================== */
+
+/* Homepage hero: glass-cube landscape, mirrored so the cubes sit behind the answer panel */
+.x-hero { position: relative; overflow: hidden; isolation: isolate; }
+.x-hero::before {
+  content: ''; position: absolute; inset: 0; z-index: -2;
+  background: url(hero-visual.webp) center 62% / cover no-repeat; transform: scaleX(-1);
+}
+.x-hero::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, #F4F5F8 0%, rgba(244,245,248,.96) 34%, rgba(244,245,248,.55) 56%, rgba(244,245,248,.08) 78%, rgba(244,245,248,0) 100%);
+}
+@media (max-width: 980px) {
+  .x-hero::before { background-image: url(hero-visual-m.webp); background-position: center bottom; transform: none; }
+  .x-hero::after { background: linear-gradient(180deg, #F4F5F8 0%, rgba(244,245,248,.94) 46%, rgba(244,245,248,.35) 75%, rgba(244,245,248,.15) 100%); }
+}
+
+/* Inner page heroes without their own art: the same landscape, fading in from the right */
+.hero:not(.hero--art) { position: relative; overflow: hidden; isolation: isolate; }
+.hero:not(.hero--art)::before {
+  content: '' !important; display: block !important; position: absolute; inset: 0 0 0 30%; z-index: -1;
+  background: url(hero-visual.webp) left 35% / cover no-repeat; transform: scaleX(-1);
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 92%); mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 92%);
+  opacity: .9; filter: none; animation: none; translate: none;
+}
+.hero:not(.hero--art) > .container { position: relative; z-index: 1; }
+@media (max-width: 860px) {
+  .hero:not(.hero--art)::before { inset: 0; opacity: .28; -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 100%); mask-image: linear-gradient(180deg, transparent 0%, #000 100%); }
+}
+
+/* Dark sections: carbon over the network texture */
+.section--navy, .x-sec--dark {
+  background: linear-gradient(180deg, rgba(14,21,36,.86), rgba(14,21,36,.92)), url(dark-bg.webp) center / cover no-repeat, #0E1524 !important;
+}
+.x-sec--dark { color: #B9C1D3; border-bottom: 0; }
+.x-sec--dark h2, .x-sec--dark h3, .x-sec--dark .x-stat-num { color: #fff; }
+.x-sec--dark .lead, .x-sec--dark .x-stat p { color: #B9C1D3; }
+.x-sec--dark .x-kicker { color: var(--amber); }
+.x-sec--dark .x-stats { border-top-color: rgba(255,255,255,.5); }
+.x-sec--dark .x-stat + .x-stat { border-left-color: rgba(255,255,255,.14); }
+.x-sec--dark .x-bar { color: #8E98AE; }
+.x-sec--dark .x-bar i { background: rgba(255,255,255,.14); }
+.x-sec--dark .x-bar i::after { background: rgba(255,255,255,.35); }
+.x-sec--dark .x-bar i.x-after::after { background: var(--amber); }
+.x-sec--flush { padding-top: 0; }
+.x-sec--flush .x-proof { margin-top: clamp(56px, 7vw, 88px); }
+@media (max-width: 760px) { .x-sec--dark .x-stat + .x-stat { border-top-color: rgba(255,255,255,.14); } }
+
+/* Closing CTA blocks: the earth with routes */
+.x-cta-box, .cta-band {
+  background: linear-gradient(90deg, rgba(14,21,36,.94) 0%, rgba(14,21,36,.82) 55%, rgba(14,21,36,.55) 100%), url(earth-wide.webp) center 70% / cover no-repeat, #0E1524 !important;
+}
