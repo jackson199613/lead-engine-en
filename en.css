@@ -442,3 +442,11 @@ input:focus, select:focus, textarea:focus { border-color: var(--carbon) !importa
 .x-cta-box, .cta-band {
   background: linear-gradient(90deg, rgba(14,21,36,.94) 0%, rgba(14,21,36,.82) 55%, rgba(14,21,36,.55) 100%), url(earth-wide.webp) center 70% / cover no-repeat, #0E1524 !important;
 }
+
+/* Homepage FAQ */
+.x-faq-head { align-self: start; position: sticky; top: 110px; }
+.x-faq-art { margin: 28px 0 22px; max-width: 300px; }
+.x-faq-art img { width: 100%; height: auto; mix-blend-mode: multiply; -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%); }
+.x-faq-ask { font-size: .95rem; }
+.x-faq-list .faq-body a { border-bottom: 1px solid currentColor; }
+@media (max-width: 980px) { .x-faq-head { position: static; } .x-faq-art { display: none; } }
