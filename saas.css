@@ -271,3 +271,6 @@ thead th { background: var(--porcelain); border-bottom: 1px solid var(--hair); }
 /* ---- Industry card renders ---- */
 .g2-page .g2-ind .g2-ind-art { width: 104px; height: 104px; object-fit: contain; mix-blend-mode: multiply; margin: -12px 0 10px -10px; }
 @media (min-width: 901px) and (max-width: 1300px) { .hero--pic .hero-art { right: 56px; width: min(36%, 440px); } }
+
+/* proof screenshot: keep natural aspect ratio */
+.x-shot img { display: block; width: 100%; height: auto; }
