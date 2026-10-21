@@ -9,18 +9,18 @@
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://ileadengineai.com/playbook.html">
 <meta property="og:locale" content="en_US">
-<meta name="theme-color" content="#0E1524">
+<meta name="theme-color" content="#3256F5">
 <meta property="og:image" content="https://ileadengineai.com/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://ileadengineai.com/og-cover.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css?v=41">
 <link rel="stylesheet" href="en.css?v=2">
-<link rel="stylesheet" href="en-g5.css?v=1">
+<link rel="stylesheet" href="en-g5.css?v=2">
+<link rel="stylesheet" href="saas.css?v=2">
 </head>
 <body>
 <header class="site-header">
@@ -66,10 +66,10 @@
     <p class="hero-lead">The operating standards for the Lead Engine team, in four parts: the site-wide variables table, the post-publish indexing SOP, page-to-conversion rules and content quality red lines. Follow them and you won't need to ask anyone.</p>
     <p class="hero-note">This page is excluded from search indexing (noindex) but publicly accessible. We ask clients for transparency, so we practice it ourselves.</p>
     <ol class="g5-index" aria-label="Playbook sections">
-      <li><a href="#variables">Content variables table<small>#58, one-time setup</small></a></li>
-      <li><a href="#sop">Post-publish indexing SOP<small>#69, every piece</small></a></li>
-      <li><a href="#conversion">Page-to-conversion rules<small>#70, every piece</small></a></li>
-      <li><a href="#redline">Content quality red lines<small>#72, pre-publish check</small></a></li>
+      <li><a href="#variables"><span class="g5-idx-ref">#58</span><b>Content variables table</b><small>One-time setup</small></a></li>
+      <li><a href="#sop"><span class="g5-idx-ref">#69</span><b>Post-publish indexing SOP</b><small>Every piece</small></a></li>
+      <li><a href="#conversion"><span class="g5-idx-ref">#70</span><b>Page-to-conversion rules</b><small>Every piece</small></a></li>
+      <li><a href="#redline"><span class="g5-idx-ref">#72</span><b>Content quality red lines</b><small>Pre-publish check</small></a></li>
     </ol>
   </div>
 </section>
@@ -77,7 +77,7 @@
 <!-- #58 Content variables table -->
 <section class="x-sec g5-pb-sec" id="variables">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head g5-doc-head reveal">
       <span class="x-kicker">One-time setup</span>
       <h2>Content variables table</h2>
       <p class="lead">Every piece of external content must state these items exactly the same way. Inconsistent wording makes AI treat you as several different entities and dilutes your weight. Change them only in this table, then sync the whole site.</p>
@@ -111,7 +111,7 @@
 <!-- #69 Post-publish indexing SOP -->
 <section class="section section--navy g5-pb-sec" id="sop">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head g5-doc-head reveal">
       <span class="eyebrow">Every piece, about 15 minutes</span>
       <h2>Post-publish indexing SOP</h2>
       <p class="lead">Writing the content is only half the job. Skip these nine steps and AI may not read it for months. Run through them after every publish; it takes about 15 minutes.</p>
@@ -134,26 +134,29 @@
 <!-- #70 Page-to-conversion rules -->
 <section class="x-sec g5-pb-sec" id="conversion">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head g5-doc-head reveal">
       <span class="x-kicker">Every piece</span>
       <h2>Page-to-conversion rules</h2>
       <p class="lead">Content can't just be content. Every piece needs a clear next step. Without one, readers leave when they finish and the piece was written for nothing.</p>
       <p class="g5-ref">Playbook ref. #70</p>
     </div>
-    <div class="g5-cols reveal">
-      <article class="g5-col">
+    <div class="s-grid s-grid--3 g5-cols reveal">
+      <article class="s-card g5-col">
+        <span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
         <span class="g5-meta">Mid-article</span>
         <h3>Soft hook</h3>
         <p>Halfway through, add one relevant prompt that doesn't interrupt reading.</p>
         <p class="note"><strong>Template:</strong> "Want to know how AI describes your category right now? <a href="contact.html">Get an audit report in 3 business days</a>."</p>
       </article>
-      <article class="g5-col">
+      <article class="s-card g5-col">
+        <span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
         <span class="g5-meta">End of article</span>
         <h3>Primary CTA</h3>
         <p>The main conversion point of the piece. Use the CTA band block, the visually heaviest element on the page.</p>
         <p class="note"><strong>Template:</strong> the headline promises an outcome, the body states the deliverable and timing, and the button always reads "Get your free AI visibility audit."</p>
       </article>
-      <article class="g5-col">
+      <article class="s-card g5-col">
+        <span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></span>
         <span class="g5-meta">Side rail and floating</span>
         <h3>Always on</h3>
         <p>The contact rail on the right and the chat button at bottom right stay visible on every page. You don't need to add them page by page.</p>
@@ -174,15 +177,15 @@
 <!-- #72 Content quality red lines -->
 <section class="x-sec x-sec--muted g5-pb-sec" id="redline">
   <div class="container">
-    <div class="section-head reveal">
+    <div class="section-head g5-doc-head reveal">
       <span class="x-kicker">Pre-publish check</span>
       <h2>Content quality red lines</h2>
       <p class="lead">Ten rules. If any one of them fails, the piece doesn't ship. What we sell is content AI is confident enough to cite, so our own content has to hold up to scrutiny first.</p>
       <p class="g5-ref">Playbook ref. #72</p>
     </div>
     <div class="g5-lists reveal">
-      <div>
-        <h3>Facts and accuracy</h3>
+      <div class="s-card">
+        <div class="g5-lh"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></span><h3>Facts and accuracy</h3></div>
         <ul>
           <li><strong>Specs must be verifiable</strong>: every number traces to a source (client TDS, published standards, test records)</li>
           <li><strong>No fabricated case studies</strong>: client cases without permission are always anonymized, and they must have really happened</li>
@@ -191,8 +194,8 @@
           <li><strong>Date-stamp what ages</strong>: give the date of any data you cite, and update descriptions of AI model capabilities as versions change</li>
         </ul>
       </div>
-      <div>
-        <h3>Structure and expression</h3>
+      <div class="s-card">
+        <div class="g5-lh"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/></svg></span><h3>Structure and expression</h3></div>
         <ul>
           <li><strong>Question first, answer first</strong>: lead with the conclusion, then expand, because AI extracts the opening</li>
           <li><strong>One idea per paragraph</strong>: AI struggles to split long paragraphs into accurate citations</li>
@@ -203,6 +206,7 @@
       </div>
     </div>
     <div class="g5-callout reveal">
+      <span class="g5-warn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg></span>
       <h3>The easiest one to break</h3>
       <p><strong>A spec that's off by one digit.</strong> Heat resistance written as 15 °C instead of 150 °C. Once AI picks that up, it won't just skip citing you; it may flag your brand as an unreliable source. Have someone technical review every spec before publishing. This step is not optional.</p>
     </div>

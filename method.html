@@ -12,18 +12,18 @@
 <meta property="og:title" content="GEO method: how AI decides which suppliers to name | Lead Engine">
 <meta property="og:description" content="How Lead Engine gets AI to recommend you: Schema markup, cross-verified source content and competitor-model mapping, in four phases with monthly measurement.">
 <meta property="og:locale" content="en_US">
-<meta name="theme-color" content="#0E1524">
+<meta name="theme-color" content="#3256F5">
 <meta property="og:image" content="https://ileadengineai.com/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://ileadengineai.com/og-cover.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css?v=41">
 <link rel="stylesheet" href="en.css?v=2">
-<link rel="stylesheet" href="en-g2.css?v=1">
+<link rel="stylesheet" href="en-g2.css?v=2">
+<link rel="stylesheet" href="saas.css?v=2">
 
 </head>
 <body>
@@ -75,35 +75,41 @@
   </div>
 </section>
 
-<section class="x-sec">
+<section class="x-sec g2-page">
   <div class="container">
-    <div class="section-head">
+    <div class="s-head">
       <span class="x-kicker">GEO vs SEO</span>
       <h2>A different arena with different rules</h2>
-      <p class="lead">In search, the buyer does the comparing. In an AI answer, the model has already compared for them and kept a few names. Your job shifts from winning a click to making the cut.</p>
+      <p>In search, the buyer does the comparing. In an AI answer, the model has already compared for them and kept a few names. Your job shifts from winning a click to making the cut.</p>
     </div>
 
-    <figure class="g2-lanes" aria-label="SEO versus GEO: with SEO the buyer searches and clicks through to websites; with GEO the AI names your brand directly in its answer">
-      <div class="g2-lane">
-        <p class="g2-lane-label">Classic SEO: the buyer still does the searching</p>
-        <ol class="g2-lane-steps">
+    <figure class="g2-vs" aria-label="SEO versus GEO: with SEO the buyer searches and clicks through to websites; with GEO the AI names your brand directly in its answer">
+      <div class="g2-vs-card g2-vs-card--seo">
+        <div class="g2-vs-top">
+          <span class="g2-vs-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+          <p class="g2-vs-label">Classic SEO: the buyer still does the searching</p>
+        </div>
+        <ol class="g2-flow">
           <li>Buyer searches</li>
           <li>Ten blue links</li>
           <li>Opens and compares</li>
           <li>Lands on your site</li>
         </ol>
-        <p class="g2-lane-out">You compete for <strong>a rank on the list</strong></p>
+        <p class="g2-vs-out">You compete for <strong>a rank on the list</strong></p>
       </div>
-      <div class="g2-lane g2-lane--geo">
-        <p class="g2-lane-label">GEO: AI gives the answer directly, with no second chance</p>
-        <ol class="g2-lane-steps">
+      <div class="g2-vs-card g2-vs-card--geo">
+        <div class="g2-vs-top">
+          <span class="g2-vs-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></span>
+          <p class="g2-vs-label">GEO: AI gives the answer directly, with no second chance</p>
+        </div>
+        <ol class="g2-flow">
           <li>Buyer asks AI</li>
-          <li class="g2-lane-key">AI writes one answer naming 3–5 suppliers</li>
+          <li class="g2-flow-key">AI writes one answer naming <span class="g2-nw">3–5 suppliers</span></li>
           <li>Sends an inquiry</li>
         </ol>
-        <p class="g2-lane-out">You compete for <strong>a place on the shortlist</strong></p>
+        <p class="g2-vs-out">You compete for <strong>a place on the shortlist</strong></p>
       </div>
-      <figcaption><strong>The key difference:</strong> rank #8 in search and someone may still scroll to you. Leave AI's answer and the buyer never learns you exist.</figcaption>
+      <figcaption class="g2-vs-cap"><strong>The key difference:</strong> rank #8 in search and someone may still scroll to you. Leave AI's answer and the buyer never learns you exist.</figcaption>
     </figure>
 
     <div class="table-wrap">
@@ -121,112 +127,110 @@
   </div>
 </section>
 
-<section class="x-sec x-sec--muted">
+<section class="x-sec x-sec--muted g2-page">
   <div class="container">
-    <div class="section-head">
+    <div class="s-head">
       <span class="x-kicker">Three core capabilities</span>
       <h2>What we actually do</h2>
-      <p class="lead">Before AI names a supplier, three things have to be true: it can read your facts, it can confirm them somewhere else, and it can connect them to the buyer's exact question. Each capability below handles one of those.</p>
+      <p>Before AI names a supplier, three things have to be true: it can read your facts, it can confirm them somewhere else, and it can connect them to the buyer's exact question. Each capability below handles one of those.</p>
     </div>
-    <div class="g2-caps">
-      <article class="g2-cap">
-        <header>
-          <span class="g2-tag">Readable</span>
-          <h3>Semantic restructuring and Schema markup</h3>
-        </header>
-        <div>
-          <p>We add Organization, Product, TechArticle, FAQPage and other structured data markup to your website, and release the key selection parameters in your TDS and COA documents from PDFs into machine-readable fields. Every category has different critical fields, so we first agree with your technical lead on exactly which ones drive a buyer's decision.</p>
-          <ul class="check-list">
-            <li>Product entities and parameter fields modeled</li>
-            <li>llms.txt and AI crawler access checked</li>
-            <li>Technical documents converted to indexable HTML</li>
-          </ul>
-        </div>
-      </article>
-      <article class="g2-cap">
-        <header>
-          <span class="g2-tag">Verifiable</span>
-          <h3>Authoritative content seeding and external cross-verification</h3>
-        </header>
-        <div>
-          <p>Models are cautious about what a single source says about itself, but they trust a fact that several independent sources state consistently. We systematically publish expert-level content in industry technical media, professional communities, LinkedIn and document platforms.</p>
-          <ul class="check-list">
-            <li>Scheduled long-form technical and application articles</li>
-            <li>Entries on industry platforms and in databases</li>
-            <li>White papers and selection guides</li>
-          </ul>
-        </div>
-      </article>
-      <article class="g2-cap">
-        <header>
-          <span class="g2-tag">Relevant</span>
-          <h3>Competitor-model mapping and the "alternative to" strategy</h3>
-        </header>
-        <div>
-          <p>We build a spec-by-spec mapping between your grades and the international big-brand models they compete with. When a buyer asks AI for "an alternative to model X," the model then has evidence to put your grade forward as a candidate.</p>
-          <ul class="check-list">
-            <li>Competitor-model parameter mapping library</li>
-            <li>Content for each substitution scenario</li>
-            <li>Application × system × recommended grade selection table</li>
-          </ul>
-        </div>
-      </article>
-    </div>
+
+    <article class="s-feature g2-cap">
+      <figure class="s-feature-art"><img src="img/data-sources.webp" srcset="img/data-sources-m.webp 720w, img/data-sources.webp 1024w" sizes="(max-width: 760px) 90vw, 560px" width="1024" height="1024" alt="" aria-hidden="true" loading="lazy" decoding="async"></figure>
+      <div class="s-feature-copy">
+        <span class="s-tag">1 · Readable</span>
+        <h3>Semantic restructuring and Schema markup</h3>
+        <p>We add Organization, Product, TechArticle, FAQPage and other structured data markup to your website, and release the key selection parameters in your TDS and COA documents from PDFs into machine-readable fields. Every category has different critical fields, so we first agree with your technical lead on exactly which ones drive a buyer's decision.</p>
+        <ul class="s-checks">
+          <li>Product entities and parameter fields modeled</li>
+          <li>llms.txt and AI crawler access checked</li>
+          <li>Technical documents converted to indexable HTML</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="s-feature s-feature--flip g2-cap">
+      <figure class="s-feature-art"><img src="img/about-hero.webp" srcset="img/about-hero-m.webp 720w, img/about-hero.webp 1400w" sizes="(max-width: 760px) 90vw, 560px" width="1400" height="788" alt="" aria-hidden="true" loading="lazy" decoding="async"></figure>
+      <div class="s-feature-copy">
+        <span class="s-tag">2 · Verifiable</span>
+        <h3>Authoritative content seeding and external cross-verification</h3>
+        <p>Models are cautious about what a single source says about itself, but they trust a fact that several independent sources state consistently. We systematically publish expert-level content in industry technical media, professional communities, LinkedIn and document platforms.</p>
+        <ul class="s-checks">
+          <li>Scheduled long-form technical and application articles</li>
+          <li>Entries on industry platforms and in databases</li>
+          <li>White papers and selection guides</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="s-feature g2-cap">
+      <figure class="s-feature-art"><img src="img/buyer-ai.webp" srcset="img/buyer-ai-m.webp 720w, img/buyer-ai.webp 1254w" sizes="(max-width: 760px) 90vw, 560px" width="1254" height="1254" alt="" aria-hidden="true" loading="lazy" decoding="async"></figure>
+      <div class="s-feature-copy">
+        <span class="s-tag">3 · Relevant</span>
+        <h3>Competitor-model mapping and the "alternative to" strategy</h3>
+        <p>We build a spec-by-spec mapping between your grades and the international big-brand models they compete with. When a buyer asks AI for "an alternative to model X," the model then has evidence to put your grade forward as a candidate.</p>
+        <ul class="s-checks">
+          <li>Competitor-model parameter mapping library</li>
+          <li>Content for each substitution scenario</li>
+          <li>Application × system × recommended grade selection table</li>
+        </ul>
+      </div>
+    </article>
   </div>
 </section>
 
-<section class="x-sec">
+<section class="x-sec g2-page">
   <div class="container">
-    <div class="section-head">
+    <div class="s-head">
       <span class="x-kicker">Delivery process</span>
       <h2>Four phases, each with a deliverable you can sign off</h2>
     </div>
-    <ol class="g2-phases" aria-label="Four-phase GEO delivery process: audit, build, seed, monitor and iterate">
-      <li>
-        <div class="g2-phase-head"><span class="g2-phase-num">1</span><span class="g2-phase-when">Week 1</span></div>
+    <ol class="g2-steps" aria-label="Four-phase GEO delivery process: audit, build, seed, monitor and iterate">
+      <li class="g2-step">
+        <div class="g2-step-head"><span class="g2-step-num">1</span><span class="g2-step-when">Week 1</span></div>
         <h3>AI visibility audit</h3>
-        <p class="g2-phase-key">4 AI models tested</p>
+        <p class="g2-step-key">4 AI models tested</p>
         <p>We map the questions your buyers actually ask, then test how often you and your competitors are recommended in the four major AI models (ChatGPT, Perplexity, Claude and Gemini).</p>
-        <p class="g2-phase-out"><strong>Deliverable:</strong> AI Visibility Audit Report with real screenshots and a gap analysis.</p>
+        <p class="g2-step-out"><strong>Deliverable:</strong> AI Visibility Audit Report with real screenshots and a gap analysis.</p>
       </li>
-      <li>
-        <div class="g2-phase-head"><span class="g2-phase-num">2</span><span class="g2-phase-when">Weeks 2–5</span></div>
+      <li class="g2-step">
+        <div class="g2-step-head"><span class="g2-step-num">2</span><span class="g2-step-when">Weeks 2–5</span></div>
         <h3>Semantic asset build</h3>
-        <p class="g2-phase-key">Schema + specs</p>
+        <p class="g2-step-key">Schema + specs</p>
         <p>Schema markup on your website, structured product parameters, a competitor-model mapping library and application selection tables.</p>
-        <p class="g2-phase-out"><strong>Deliverable:</strong> Checklist of structured data now live, plus the model mapping library.</p>
+        <p class="g2-step-out"><strong>Deliverable:</strong> Checklist of structured data now live, plus the model mapping library.</p>
       </li>
-      <li>
-        <div class="g2-phase-head"><span class="g2-phase-num">3</span><span class="g2-phase-when">Ongoing from week 4</span></div>
+      <li class="g2-step">
+        <div class="g2-step-head"><span class="g2-step-num">3</span><span class="g2-step-when">Ongoing from week 4</span></div>
         <h3>Authoritative content seeding</h3>
-        <p class="g2-phase-key">Cross-verified external content</p>
+        <p class="g2-step-key">Cross-verified external content</p>
         <p>Long-form technical articles, white papers and industry platform content, published on a weekly schedule so independent sources confirm each other.</p>
-        <p class="g2-phase-out"><strong>Deliverable:</strong> Publication log and record of external indexing.</p>
+        <p class="g2-step-out"><strong>Deliverable:</strong> Publication log and record of external indexing.</p>
       </li>
-      <li>
-        <div class="g2-phase-head"><span class="g2-phase-num">4</span><span class="g2-phase-when">Monthly</span></div>
+      <li class="g2-step">
+        <div class="g2-step-head"><span class="g2-step-num">4</span><span class="g2-step-when">Monthly</span></div>
         <h3>Monitoring and iteration</h3>
-        <p class="g2-phase-key">Monthly mention-rate report</p>
+        <p class="g2-step-key">Monthly mention-rate report</p>
         <p>We re-test your AI mention rate and recommendation position and adjust the content strategy based on the data.</p>
-        <p class="g2-phase-out"><strong>Deliverable:</strong> Monthly AI mention rate report and next month's schedule.</p>
+        <p class="g2-step-out"><strong>Deliverable:</strong> Monthly AI mention rate report and next month's schedule.</p>
       </li>
     </ol>
-    <p class="g2-loop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 5v6h-6"/></svg>Re-tested monthly; the data sends us back to phases 2 and 3.</p>
+    <p class="g2-loop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 5v6h-6"/></svg><span>Re-tested monthly; the data sends us back to phases 2 and 3.</span></p>
   </div>
 </section>
 
-<section class="section section--navy g2-dark">
-  <div class="container x-split">
-    <header>
+<section class="section section--navy g2-dark g2-page">
+  <div class="container">
+    <div class="s-head">
       <span class="x-kicker">Measurement</span>
       <h2>We report numbers, not “it feels better”</h2>
       <p>You can reproduce every one of these yourself in the models.</p>
-    </header>
-    <div class="g2-dgrid">
-      <div><h3>Mention rate</h3><p>The share of target-category questions in which your brand is named.</p></div>
-      <div><h3>Recommendation position</h3><p>Where you appear in the shortlist AI gives.</p></div>
-      <div><h3>Cited sources</h3><p>Which pages AI cites: your own website or third-party source content.</p></div>
-      <div><h3>Parameter accuracy</h3><p>Whether AI repeats your product specs correctly.</p></div>
+    </div>
+    <div class="s-grid s-grid--4">
+      <article class="s-card g2-glass"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5L5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><h3>Mention rate</h3><p>The share of target-category questions in which your brand is named.</p></article>
+      <article class="s-card g2-glass"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M4 6h1M4 12h1M4 18h1"/></svg></span><h3>Recommendation position</h3><p>Where you appear in the shortlist AI gives.</p></article>
+      <article class="s-card g2-glass"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 006.4 0l3-3a4.5 4.5 0 00-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 00-6.4 0l-3 3a4.5 4.5 0 006.4 6.4l1-1"/></svg></span><h3>Cited sources</h3><p>Which pages AI cites: your own website or third-party source content.</p></article>
+      <article class="s-card g2-glass"><span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></span><h3>Parameter accuracy</h3><p>Whether AI repeats your product specs correctly.</p></article>
     </div>
   </div>
 </section>

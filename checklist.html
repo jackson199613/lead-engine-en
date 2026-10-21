@@ -12,18 +12,18 @@
 <meta property="og:title" content="18-item GEO self-check with live scoring | Lead Engine">
 <meta property="og:description" content="Check your AI visibility basics in 18 items: AI crawler access, spec readability, structured data, external sources. Live score and priority fixes. No sign-up.">
 <meta property="og:locale" content="en_US">
-<meta name="theme-color" content="#0E1524">
+<meta name="theme-color" content="#3256F5">
 <meta property="og:image" content="https://ileadengineai.com/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://ileadengineai.com/og-cover.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css?v=41">
 <link rel="stylesheet" href="en.css?v=2">
-<link rel="stylesheet" href="en-g5.css?v=1">
+<link rel="stylesheet" href="en-g5.css?v=2">
+<link rel="stylesheet" href="saas.css?v=2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"18-item GEO self-check for B2B suppliers",
 "url":"https://ileadengineai.com/checklist.html",
@@ -78,7 +78,7 @@
   </div>
 </section>
 
-<section class="g5-ck-sec">
+<section class="x-sec x-sec--muted g5-ck-sec">
   <div class="container">
     <div class="ck-wrap">
       <div class="ck-main">
@@ -119,9 +119,10 @@
       </div>
 
       <aside class="ck-panel" id="ck-panel">
-        <p class="g5-ck-label">Your score</p>
+        <p class="g5-ck-label">Your score <span class="g5-ck-live">Updates live</span></p>
         <div class="ck-dial">
           <svg viewBox="0 0 120 120" aria-hidden="true">
+            <defs><linearGradient id="g5-ck-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3256F5"/><stop offset=".55" stop-color="#6A4BFF"/><stop offset="1" stop-color="#9B5CFF"/></linearGradient></defs>
             <circle cx="60" cy="60" r="52" fill="none" stroke="var(--hair)" stroke-width="9"/>
             <circle id="ck-arc" cx="60" cy="60" r="52" fill="none" stroke="var(--amber)" stroke-width="9"
                     stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7"
@@ -140,21 +141,42 @@
   </div>
 </section>
 
-<section class="x-sec x-sec--muted">
-  <div class="container x-split">
-    <header>
+<section class="x-sec g5-bands-sec">
+  <div class="container">
+    <header class="s-head">
       <span class="x-kicker">Score bands</span>
       <h2>How to read your score</h2>
       <p>Each band points to the group to fix first.</p>
     </header>
-    <div>
-      <ul class="g5-bands">
-        <li><div class="g5-band-pts">0–15<small>pts</small></div><div><h3>Invisible to AI</h3><p>When buyers ask AI, you aren't on the shortlist at all. Fix group A first. It's usually a one-line configuration change.</p></div></li>
-        <li><div class="g5-band-pts">16–30<small>pts</small></div><div><h3>Crawled, not understood</h3><p>AI can reach your site but can't tell what you sell or what your specs are. Focus on groups B and C.</p></div></li>
-        <li><div class="g5-band-pts">31–42<small>pts</small></div><div><h3>One step short</h3><p>Your own assets are in good shape. What's missing is third-party cross-verification. Group D is your bottleneck.</p></div></li>
-        <li><div class="g5-band-pts">43+<small>pts</small></div><div><h3>On the shortlist</h3><p>The next contest is recommendation position and consistency, which takes ongoing content work.</p></div></li>
-      </ul>
-      <p class="g5-after">These 18 items cover only what you can check yourself. The real gap shows up in <strong>how often competitors get recommended in AI answers, and which sources AI cites for them</strong>. We test that for you free of charge.
+    <div class="s-grid s-grid--4 g5-bands">
+      <article class="s-card g5-band reveal">
+        <span class="g5-meter g5-meter--1" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <div class="g5-band-pts">0–15<small>pts</small></div>
+        <h3>Invisible to AI</h3>
+        <p>When buyers ask AI, you aren't on the shortlist at all. Fix group A first. It's usually a one-line configuration change.</p>
+      </article>
+      <article class="s-card g5-band reveal">
+        <span class="g5-meter g5-meter--2" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <div class="g5-band-pts">16–30<small>pts</small></div>
+        <h3>Crawled, not understood</h3>
+        <p>AI can reach your site but can't tell what you sell or what your specs are. Focus on groups B and C.</p>
+      </article>
+      <article class="s-card g5-band reveal">
+        <span class="g5-meter g5-meter--3" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <div class="g5-band-pts">31–42<small>pts</small></div>
+        <h3>One step short</h3>
+        <p>Your own assets are in good shape. What's missing is third-party cross-verification. Group D is your bottleneck.</p>
+      </article>
+      <article class="s-card g5-band reveal">
+        <span class="g5-meter g5-meter--4" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <div class="g5-band-pts">43+<small>pts</small></div>
+        <h3>On the shortlist</h3>
+        <p>The next contest is recommendation position and consistency, which takes ongoing content work.</p>
+      </article>
+    </div>
+    <div class="g5-after reveal">
+      <span class="s-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></span>
+      <p>These 18 items cover only what you can check yourself. The real gap shows up in <strong>how often competitors get recommended in AI answers, and which sources AI cites for them</strong>. We test that for you free of charge.
       See the <a href="report-sample.html">sample report</a> first.</p>
     </div>
   </div>

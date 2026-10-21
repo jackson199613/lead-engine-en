@@ -160,7 +160,7 @@ Data and privacy: outbound contacts are cross-verified and every email address i
 
 - Sample audit report: https://ileadengineai.com/report-sample.html
 - 18-item GEO online self-check: https://ileadengineai.com/checklist.html
-- 25 Q&As (10 on working with Lead Engine, 15 on GEO): https://ileadengineai.com/faq.html
+- 26 Q&As (11 on working with Lead Engine, 15 on GEO): https://ileadengineai.com/faq.html
 - 10 how-to guides with complete steps you can follow yourself: https://ileadengineai.com/how-to.html
 - Full method: https://ileadengineai.com/method.html
 - Content operations playbook: https://ileadengineai.com/playbook.html
