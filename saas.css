@@ -254,3 +254,20 @@ thead th { background: var(--porcelain); border-bottom: 1px solid var(--hair); }
   .rail-item:first-child > a svg { width: 26px; height: 26px; stroke: #fff; margin: 0; }
   .rail-pop { display: none !important; }
 }
+.s-faq-more { text-align: center; margin-top: 26px; }
+@media (min-width: 861px) and (max-width: 1240px) { .nav-links a { padding: 8px 8px !important; font-size: .9rem !important; } .nav { gap: 12px; } }
+
+/* ---- New hero renders (hero--pic): text left, render right ---- */
+@media (min-width: 901px) {
+  .hero.hero--pic { min-height: 0 !important; }
+  .hero.hero--pic > .container { min-height: clamp(380px, 34vw, 470px); display: flex; flex-direction: column; justify-content: center; }
+  .hero--pic .container > :not(.hero-art) { max-width: min(58%, 640px); }
+  .hero--pic .hero-art { width: min(40%, 500px); right: 0; }
+  .hero--pic .eyebrow, .hero--pic .g5-updated { align-self: flex-start; }
+}
+@media (max-width: 900px) {
+  .hero--pic .hero-art { width: min(86%, 380px); margin: 22px auto 0; }
+}
+/* ---- Industry card renders ---- */
+.g2-page .g2-ind .g2-ind-art { width: 104px; height: 104px; object-fit: contain; mix-blend-mode: multiply; margin: -12px 0 10px -10px; }
+@media (min-width: 901px) and (max-width: 1300px) { .hero--pic .hero-art { right: 56px; width: min(36%, 440px); } }
